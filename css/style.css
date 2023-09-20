@@ -1,10 +1,31 @@
+@font-face {
+  font-family: "RedditSans-Light";
+  src: url(fonts/RedditSans-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "RedditSans-Regular";
+  src: url(fonts/RedditSans-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "RedditSans-SemiBold";
+  src: url(fonts/RedditSans-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "RedditSans-Bold";
+  src: url(fonts/RedditSans-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "RedditSans-ExtraBold";
+  src: url(fonts/RedditSans-ExtraBold.ttf) format("truetype");
+}
+html {
+  font-size: 100%;
+}
 body {
-font-family: 'Josefin Sans', sans-serif
+  font-family: "RedditSans-Light", sans-serif;
 }
 h1 {
-  font-family: 'Comfortaa', sans-serif;
-  -webkit-text-fill-color: orangered;
-
+  font-family: "RedditSans-ExtraBold", sans-serif;
 }
 .btn {
   -webkit-text-fill-color: orangered;
