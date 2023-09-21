@@ -28,5 +28,19 @@ h1 {
   font-family: "RedditSans-ExtraBold", sans-serif;
 }
 .btn {
-  -webkit-text-fill-color: orangered;
+ /* background-color: orangered!important;
+ border-color: orangered!important;
+ color: white!important; */
+ font-family: "RedditSans-Light", sans-serif;
+}
+/* .btn:hover {
+  color: black!important;
+} */
+[class$="-primary"]{
+  color: white!important;
+  background-color: orangered!important;
+  border-color: orangered!important;
+}[class$="-primary"]:hover{
+  color: black!important;
+
 }
