@@ -17,9 +17,14 @@
 @font-face {
   font-family: "RedditSans-ExtraBold";
   src: url(fonts/RedditSans-ExtraBold.ttf) format("truetype");
+
 }
 html {
-  font-size: 100%;
+  font-size: 100%;}
+
+main {
+  margin-left: 10.75rem;
+  margin-right: 10.75rem;
 }
 body {
   font-family: "RedditSans-Regular", sans-serif;
@@ -68,4 +73,10 @@ h3 {
 #snoos {
   align-content: center;
   scale: 70%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+/*about secton*/
+.intro .container-fluid {
+
 }
