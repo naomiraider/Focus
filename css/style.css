@@ -22,10 +22,18 @@ html {
   font-size: 100%;
 }
 body {
-  font-family: "RedditSans-Light", sans-serif;
+  font-family: "RedditSans-Regular", sans-serif;
+  margin-left: 13.75rem;
+  margin-right: 13.75rem;
 }
 h1 {
   font-family: "RedditSans-ExtraBold", sans-serif;
+}
+h2 {
+  font-family: "RedditSans-Bold", sans-serif;
+}
+h3 {
+  font-family: "RedditSans-SemiBold" sans-serif;
 }
 .btn {
  /* background-color: orangered!important;
@@ -43,4 +51,21 @@ h1 {
 }[class$="-primary"]:hover{
   color: black!important;
 
+}
+/*headline banner*/
+#headlogo {
+  margin-left: 13.75rem;
+  margin-right: 13.75rem;
+  width: 50%;
+  position: relative;
+  padding-bottom: -2rem;
+  padding-top: 2rem;
+}
+#tellmore {
+  text-align: right;
+  margin-right: 13.75rem;
+}
+#snoos {
+  align-content: center;
+  scale: 70%;
 }
