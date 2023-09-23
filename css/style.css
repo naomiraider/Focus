@@ -118,6 +118,7 @@ p {
     "grid1-img grid1"
     "grid2 grid2-img"
     "grid3-img grid3";
+    text-align: center;
 }
 
 .infoGrid img {
