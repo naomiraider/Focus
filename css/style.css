@@ -86,10 +86,9 @@ p {
   font-family: "RedditSans-Regular", sans-serif;
 }
 .signupbtn {
-  display: flexbox;
+  display: flex;
   width: auto;
   margin-top: 2rem;
-  align-items: flex-end;
 }
 
 /* infographic */
@@ -127,6 +126,13 @@ p {
 .infoGrid > div {
   border-bottom: white 1px solid;
   padding: 2rem;
+}
+.consent {
+  display: block;
+  position: right;
+  justify-items: center;
+  padding-bottom: 2rem;
+  po
 }
 /* footer */
 h1,
@@ -170,7 +176,7 @@ img {
 }
 section {
   padding: 60px 0;
-  /* min-height: 100vh;*/
+  min-height: 100vh;
 }
 .footer {
   background: linear-gradient(105deg, #ff4500, #f79976);
