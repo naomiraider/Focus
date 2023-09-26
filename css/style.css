@@ -85,8 +85,11 @@ p {
   margin-top: 2.7rem;
   font-family: "RedditSans-Regular", sans-serif;
 }
-#signupbtn {
-  position: relative;
+.signupbtn {
+  display: flexbox;
+  width: auto;
+  margin-top: 2rem;
+  align-items: flex-end;
 }
 
 /* infographic */
