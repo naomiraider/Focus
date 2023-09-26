@@ -132,7 +132,6 @@ p {
   position: right;
   justify-items: center;
   padding-bottom: 2rem;
-  po
 }
 /* footer */
 h1,
@@ -185,11 +184,12 @@ section {
 }
 /*END FOOTER SOCIAL DESIGN*/
 .single_footer {
-@media only screen and (max-width: 768px) {
-  .single_footer {
-    margin-bottom: 30px;
+  @media only screen and (max-width: 768px) {
+    .single_footer {
+      margin-bottom: 30px;
+    }
   }
-}}
+}
 .single_footer h4 {
   color: #fff;
   margin-top: 0;
