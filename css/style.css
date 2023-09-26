@@ -129,8 +129,8 @@ p {
 }
 .consent {
   display: block;
-  position: right;
-  justify-items: center;
+  width: 50%;
+  margin: 0 auto;
   padding-bottom: 2rem;
 }
 /* footer */
