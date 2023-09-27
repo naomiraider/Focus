@@ -74,28 +74,36 @@ p {
   padding-bottom: 3rem;
 }
 /*about secton*/
-.card-img {
+/* .card-img {
   scale: 30%;
+} */
+.card-columns {
+  display: inline-block;
+  row-gap: 3rem;
+  padding: 2rem;
+  column-count: 2;
 }
 .card-body {
-  margin-top: 3.5rem;
   align-items: center;
 }
 .card-text {
-  margin-top: 2.7rem;
   font-family: "RedditSans-Regular", sans-serif;
+  margin: 1rem;
 }
 .signupbtn {
-  display: flex;
+  display: inline-block;
   width: auto;
   margin-top: 2rem;
   float: right;
 }
+.row {
+  padding: 2rem;
+}
 
 /* infographic */
-#info {
+/* #info {
   margin-top: 3rem;
-}
+} */
 .column {
   display: grid;
   flex-direction: column;
