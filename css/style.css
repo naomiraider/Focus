@@ -44,6 +44,7 @@ h4 {
 }
 p {
   font-family: "RedditSans-Light" sans-serif;
+  font-size: 24px;
 }
 
 [class$="-primary"] {
@@ -51,10 +52,17 @@ p {
   background-color: #ff4500 !important;
   border-color: orangered !important;
   font-family: "RedditSans-SemiBold", sans-serif !important;
+  
 }
 [class$="-primary"]:hover {
   color: black !important;
   font-family: "RedditSans-SemiBold", sans-serif !important;
+}
+.mb-6 {
+  margin-bottom: 6rem;
+}
+.mb-7 {
+  margin-bottom: 10rem;
 }
 /*headline banner*/
 #headlogo {
@@ -73,14 +81,17 @@ p {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+.introhead {
+  text-align: center;
+}
 /*about secton*/
 /* .card-img {
   scale: 30%;
 } */
 .card-columns {
   display: inline-block;
-  row-gap: 3rem;
-  padding: 2rem;
+  /* row-gap: 3rem;
+  padding: 2rem; */
   column-count: 2;
 }
 .card-body {
@@ -113,30 +124,32 @@ p {
   width: 50%;
 }
 .infoGrid {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: 1fr 1fr;
   align-content: center;
   grid-template-areas:
     "grid1-img grid1"
     "grid2 grid2-img"
     "grid3-img grid3";
-  text-align: center;
-  justify-content: center;
+
+  row-gap: 2rem;
 }
+
 
 .infoGrid img {
   width: 100%;
 }
-.infoGrid > div {
+/* .infoGrid > div {
   border-bottom: white 1px solid;
   padding: 2rem;
-}
+} */
 .consent {
   display: block;
   width: 50%;
   margin: 0 auto;
   padding-bottom: 2rem;
 }
+
 /* footer */
 h1,
 h2,
@@ -279,13 +292,13 @@ section {
   }
 }
 
-/* button {
+button {
   padding: 0;
   border: none;
   background-color: transparent;
   -webkit-border-radius: 0;
   border-radius: 0;
-} */
+}
 /*END NEWSLETTER CSS*/
 
 /*START SOCIAL PROFILE CSS*/
@@ -329,8 +342,8 @@ section {
   }
 }
 .social_profile ul li a:hover {
-  background: transparent;
-  border: 1px solid black;
+  background: lightgray;
+  border: 1px solid gray;
   color: black;
   border: 0px;
 }
