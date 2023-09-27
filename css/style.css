@@ -46,6 +46,9 @@ p {
   font-family: "RedditSans-Light" sans-serif;
   font-size: 24px;
 }
+.legal {
+  font-size: 14px;
+}
 
 [class$="-primary"] {
   color: white !important;
