@@ -40,7 +40,7 @@ h2 {
 }
 h3,
 h4 {
-  font-family: "RedditSans-SemiBold" sans-serif;
+  font-family: "RedditSans-SemiBold", sans-serif;
 }
 p {
   font-family: "RedditSans-Light" sans-serif;
@@ -89,6 +89,7 @@ p {
   display: flex;
   width: auto;
   margin-top: 2rem;
+  float: right;
 }
 
 /* infographic */
@@ -303,7 +304,7 @@ section {
   transition: all 0.3s ease 0s;
   margin: 0px 5px;
   font-size: 18px;
-  color: #fff;
+  color: black;
   border-radius: 30px;
   width: 50px;
   height: 50px;
@@ -325,9 +326,9 @@ section {
   }
 }
 .social_profile ul li a:hover {
-  background: lightgray;
+  background: transparent;
   border: 1px solid black;
-  color: #fff;
+  color: black;
   border: 0px;
 }
 /*END SOCIAL PROFILE CSS*/
@@ -348,6 +349,6 @@ section {
   text-transform: uppercase;
 }
 .footerlogo {
-  position: relative;
+  float: right;
   width: 10%;
 }
