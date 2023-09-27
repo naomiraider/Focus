@@ -90,12 +90,7 @@ p {
   font-family: "RedditSans-Regular", sans-serif;
   margin: 1rem;
 }
-.signupbtn {
-  display: inline-block;
-  width: auto;
-  margin-top: 2rem;
-  float: right;
-}
+
 .row {
   padding: 2rem;
 }
@@ -357,6 +352,6 @@ section {
   text-transform: uppercase;
 }
 .footerlogo {
-  float: right;
+  float: center;
   width: 10%;
 }
