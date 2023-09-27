@@ -61,6 +61,14 @@ p {
   color: black !important;
   font-family: "RedditSans-SemiBold", sans-serif !important;
 }
+[class$="-outline"] {
+  color: black !important;
+  font-family: "RedditSans-SemiBold", sans-serif !important;
+}
+[class$="-outline"]:hover {
+  color: #ff4500 !important;
+  font-family: "RedditSans-SemiBold", sans-serif !important;
+}
 .mb-6 {
   margin-bottom: 6rem;
 }
