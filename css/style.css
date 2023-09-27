@@ -86,14 +86,16 @@ p {
 #tellmore {
   text-align: right;
 }
+
 #snoos {
   align-content: center;
   scale: 80%;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-.introhead {
-  text-align: center;
+#startedbtn {
+  float: right;
+  margin-top: 1.5rem;
 }
 /*about secton*/
 /* .card-img {
