@@ -20,11 +20,13 @@
 }
 html {
   font-size: 100%;
+  
 }
 
 main {
   margin-left: 10.75rem;
   margin-right: 10.75rem;
+  font-kerning: auto;
 }
 body {
   font-family: "RedditSans-Regular", sans-serif;
