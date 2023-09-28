@@ -164,6 +164,9 @@ p {
   margin: 0 auto;
   padding-bottom: 2rem;
 }
+#defaultCheck1 {
+  border: 2px black solid;
+}
 
 /* footer */
 h1,
