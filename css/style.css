@@ -132,7 +132,7 @@ p {
 }
 .flexContainer {
   display: flex;
-  column-gap: 2rem;
+  column-gap: 2 rem;
   /* margin: 0 auto; */
 }
 /* .container {
@@ -390,5 +390,5 @@ button {
   float: center;
   width: 15%;
   transition: all .2s ease 0s;
-  border-bottom: 1px whitesmoke solid;
+  
 }
