@@ -97,6 +97,18 @@ p {
   float: right;
   margin-top: 1.5rem;
 }
+#signinbtn {
+  float: right;
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+  border-color: #ff4500;
+  color: orangered !important;
+}
+#focusstyle {
+  font-family: 'Comfortaa', cursive;
+  color: #ff4500;
+  font-stretch: expanded;
+}
 /*about secton*/
 /* .card-img {
   scale: 30%;

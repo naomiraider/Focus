@@ -23,6 +23,12 @@
       src="https://kit.fontawesome.com/1abb493909.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- <nav class="navbar bg-body-tertiary">
@@ -50,9 +56,12 @@
           id="headlogo"
         />
         <h2 id="tellmore">we like what you're saying. we want more!</h2>
-        <a class="btn btn-primary" id="startedbtn" href="#consent">
-          Get Started Now
-        </a>
+        <div class="container">
+          <a class="btn btn-primary" id="startedbtn" href="#consent">
+            Get Started Now
+          </a>
+          <button class="btn btn-outline" id="signinbtn">Sign In</button>
+        </div>
         <img
           src="images/PNG/snoos_group.png"
           img
@@ -81,13 +90,16 @@
       <!-- attributes -->
       <div class="attributes mb-7">
         <h1 class="mb-4">
-          Every <span style="color: orangered">focus</span> study is:
+          Every <span id="focusstyle"
+            >focus</span
+          >
+          study is:
         </h1>
         <div class="row" style="max-width: 1400px">
           <div class="row no-gutters col-6">
             <div class="col-md-4 p-4">
               <img
-                src="images/PNG/anonymous_icon.png"
+                src="images/PNG/PNG/anon-icon.png"
                 class="card-img img-fluid"
                 alt="..."
               />
@@ -97,7 +109,7 @@
                 <h2 class="card-title">Anonymous</h2>
                 <p class="card-text">
                   Your reddit profile is your identity in
-                  <span style="color: orangered">focus</span> groups. No
+                  <span id="focusstyle">focus</span> groups. No
                   additional identifying information is required.
                 </p>
               </div>
@@ -106,7 +118,7 @@
           <div class="row no-gutters col-6">
             <div class="col-md-4 p-4">
               <img
-                src="images/PNG/secure_icon.png"
+                src="images/PNG/PNG/secure-icon.png"
                 class="card-img img-fluid"
                 alt="..."
               />
@@ -124,7 +136,7 @@
           <div class="row no-gutters col-6">
             <div class="col-md-4 p-4">
               <img
-                src="images/PNG/beneficial_icon.png"
+                src="images/PNG/PNG/paid-icon.png"
                 class="card-img img-fluid"
                 alt="..."
               />
@@ -144,7 +156,7 @@
           <div class="row no-gutters col-6">
             <div class="col-md-4 p-4">
               <img
-                src="images/PNG/feedback_icon.png"
+                src="images/PNG/PNG/valued-icon.png"
                 class="card-img img-fluid"
                 alt="..."
               />
@@ -153,7 +165,7 @@
               <div class="card-body container-fluid">
                 <h2 class="card-title">Valued</h2>
                 <p class="card-text">
-                  <span style="color: orangered">focus</span> groups are invite
+                  <span id="focusstyle">focus</span> groups are invite
                   only. The invitation is linked to your reddit profile. If you
                   were chosen for a survey, it's because you said something
                   interesting and they want to know more. What you say matters.
@@ -164,7 +176,7 @@
           <div class="row no-gutters col-6">
             <div class="col-md-4 p-4">
               <img
-                src="images/PNG/flexible_icon.png"
+                src="images/PNG/PNG/flexible-icon.png"
                 class="card-img img-fluid"
                 alt="..."
               />
@@ -173,7 +185,7 @@
               <div class="card-body container-fluid">
                 <h2 class="card-title">Flexible</h2>
                 <p class="card-text">
-                  <span style="color: orangered">focus</span> researchers will
+                  <span id="focusstyle">focus</span> researchers will
                   explain what the study is before you choose to join. If the
                   timing works, great! You just made some easy money.
                 </p>
@@ -184,14 +196,14 @@
           <div class="row no-gutters col-6">
             <div class="col-md-4 p-4">
               <img
-                src="images/PNG/fast icon.png"
+                src="images/PNG/PNG/easy.png"
                 class="card-img img-fluid"
                 alt="..."
               />
             </div>
             <div class="col-md-8">
               <div class="card-body container-fluid">
-                <h2 class="card-title">Fast</h2>
+                <h2 class="card-title">Easy</h2>
                 <p class="card-text">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Facilis, nihil sequi voluptas dicta sed non dolore fugiat
@@ -204,7 +216,13 @@
       </div>
       <!-- infographic -->
       <div class="infographic" id="info">
-        <h1>Here's how <span style="color: orangered">focus</span> works:</h1>
+        <h1>
+          Here's how
+          <span id="focusstyle"
+            >focus</span
+          >
+          works:
+        </h1>
         <div class="infoGrid">
           <div class="row align-items-center">
             <div class="col-12 col-md-4" id="grid1-img">
@@ -255,7 +273,10 @@
       <div class="consent" id="consent">
         <dialog id="consentDialog" class="container rounded border-1">
           <h2 class="text-center">
-            <span style="color: orangered">focus</span> Code of Conduct
+            <span style="color: orangered; font-family: 'Comfortaa', cursive"
+              >focus</span
+            >
+            Code of Conduct
           </h2>
           <h3 class="text-center">Terms and Conditions</h3>
           <p class="legal">
@@ -300,7 +321,7 @@
         <div class="form-label text-center">
           <label class="form-check-label" for="defaultCheck1">
             <h3>
-              I agree to <span style="color: orangered">focus</span> Terms &
+              I agree to <span id="focusstyle">focus</span> Terms &
               Conditions
             </h3></label
           >
@@ -315,7 +336,7 @@
         </div>
         <div class="text-center">
           <button class="btn btn-primary" id="continuebtn">
-            Continue to focus Group
+            Continue to <span style="font-family: 'Comfortaa', cursive;">focus</span> Sign In
           </button>
         </div>
       </div>
@@ -327,7 +348,7 @@
           <div class="row">
             <div class="col-lg-4 col-sm-4 col-xs-12">
               <div class="single_footer">
-                <h4>focus for Your Company</h4>
+                <h4><span style="font-family: 'Comfortaa', cursive;">focus</span> for Your Company</h4>
                 <ul>
                   <li><a href="#">Benefits</a></li>
                   <li><a href="#">Packages</a></li>
@@ -339,7 +360,7 @@
             <!--- END COL -->
             <div class="col-md-4 col-sm-4 col-xs-12">
               <div class="single_footer single_footer_address">
-                <h4>focus Guidelines</h4>
+                <h4><span style="font-family: 'Comfortaa', cursive;">focus</span> Guidelines</h4>
                 <ul>
                   <li><a href="#">Code of Contact</a></li>
                   <li><a href="#">Privacy</a></li>
@@ -352,7 +373,7 @@
             <!--- END COL -->
             <div class="col-md-4 col-sm-4 col-xs-12">
               <div class="single_footer single_footer_address">
-                <h4>Subscribe for focus insights</h4>
+                <h4>Subscribe for <span style="font-family: 'Comfortaa', cursive;">focus</span> insights</h4>
                 <div class="signup_form">
                   <form action="#" class="subscribe">
                     <input
@@ -390,9 +411,9 @@
           <div class="row">
             <div class="col-lg-12 col-sm-12 col-xs-12">
               <p class="copyright">
-                Copyright © 2023
+                Copyright © 2023 
                 <a href="#"
-                  ><img src="images/PNG/focus black@1x.png" class="footerlogo"
+                  ><img src="images/PNG/focus white@1x.png" class="footerlogo"
                 /></a>
               </p>
             </div>
