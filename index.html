@@ -60,7 +60,9 @@
           <a class="btn btn-primary" id="startedbtn" href="#consent">
             Get Started Now
           </a>
-          <button class="btn btn-outline" id="signinbtn"><i class="fab fa-reddit-alien"></i> Sign in with Reddit</button>
+          <button type="button" class="btn btn-outline" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="signinbtn">
+            <i class="fab fa-reddit-alien"></i> Sign in with Reddit
+          </button>
         </div>
         <img
           src="images/PNG/snoos_group.png"
@@ -71,7 +73,9 @@
       </div>
       <!-- <div class="aboutfocus mb-5"> -->
       <div class="introhead container mb-6">
-        <h1 class="mb-3 text-center">Help shape the future of honest research</h1>
+        <h1 class="mb-3 text-center">
+          Help shape the future of honest research
+        </h1>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem modi
           officiis, provident quo dignissimos labore quaerat eum culpa
@@ -90,9 +94,7 @@
       <!-- attributes -->
       <div class="attributes mb-7">
         <h1 class="mb-4">
-          Every <span id="focusstyle"
-            >focus</span
-          >
+          Every <span id="focusstyle">focus</span>
           study is:
         </h1>
         <div class="row" style="max-width: 1400px">
@@ -109,8 +111,8 @@
                 <h2 class="card-title">Anonymous</h2>
                 <p class="card-text">
                   Your reddit profile is your identity in
-                  <span id="focusstyle">focus</span> groups. No
-                  additional identifying information is required.
+                  <span id="focusstyle">focus</span> groups. No additional
+                  identifying information is required.
                 </p>
               </div>
             </div>
@@ -165,9 +167,9 @@
               <div class="card-body container-fluid">
                 <h2 class="card-title">Valued</h2>
                 <p class="card-text">
-                  <span id="focusstyle">focus</span> groups are invite
-                  only. The invitation is linked to your reddit profile. If you
-                  were chosen for a survey, it's because you said something
+                  <span id="focusstyle">focus</span> groups are invite only. The
+                  invitation is linked to your reddit profile. If you were
+                  chosen for a survey, it's because you said something
                   interesting and they want to know more. What you say matters.
                 </p>
               </div>
@@ -185,9 +187,9 @@
               <div class="card-body container-fluid">
                 <h2 class="card-title">Flexible</h2>
                 <p class="card-text">
-                  <span id="focusstyle">focus</span> researchers will
-                  explain what the study is before you choose to join. If the
-                  timing works, great! You just made some easy money.
+                  <span id="focusstyle">focus</span> researchers will explain
+                  what the study is before you choose to join. If the timing
+                  works, great! You just made some easy money.
                 </p>
               </div>
             </div>
@@ -218,9 +220,7 @@
       <div class="infographic" id="info">
         <h1>
           Here's how
-          <span id="focusstyle"
-            >focus</span
-          >
+          <span id="focusstyle">focus</span>
           works:
         </h1>
         <div class="infoGrid">
@@ -330,8 +330,7 @@
         <div class="form-label text-center">
           <label class="form-check-label" for="defaultCheck1">
             <h3>
-              I agree to <span id="focusstyle">focus</span> Terms &
-              Conditions
+              I agree to <span id="focusstyle">focus</span> Terms & Conditions
             </h3></label
           >
 
@@ -343,36 +342,50 @@
             onclick="consentDialog.showModal()"
           />
         </div>
+        <!-- <div class="text-center">
+          <button
+            type="button"
+            class="btn btn-outline"
+            data-toggle="modal"
+            data-target="#loginModal"
+            id="signinbtnblk"
+          >
+            <i class="fab fa-reddit-alien"></i> Sign in with Reddit
+          </button>
+        </div> -->
     
-     <!-- <div class="text-center">
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal" id="continuebtn" onclick="loginModal.showModal()"><i class="fab fa-reddit-alien"></i> Sign in with Reddit
+
+      <!--pop up modal-->
+      <!-- Button trigger modal -->
+      <div class="text-center">
+<button type="button" class="btn btn-outline" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="signinbtnblk">
+  <i class="fab fa-reddit-alien"></i> Sign in with Reddit
 </button>
-
-
-<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+      
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h3 class="modal-title" id="exampleModalLabel">Sign in with your Reddit Account</h3>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+    
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Sign into <span id="focusstyle">focus</span></span> with your <i class="fab fa-reddit-alien" style="color:orangered"></i> Reddit account</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+       Account verified through Reddit
       </div>
+
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" id="signinbtnblk"><i class="fab fa-reddit-alien"></i> Sign in with Reddit
-        </button>
+        <button type="button" class="btn btn-outline" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="signinbtnreddit">Go to <span id="focusstylewhite">focus</span> Group Now</button>
+      </div>
     </div>
   </div>
-</div>
-     </div> -->
-     <div class="text-center">
-      <button type="button" class="btn btn-outline" data-toggle="modal" data-target="#loginModal" id="signinbtnblk"><i class="fab fa-reddit-alien"></i> Sign in with Reddit
-      </button>
+  </div>
       </div>
+</div>
+      </div>
+      
     </main>
 
     <footer>
@@ -381,7 +394,10 @@
           <div class="row">
             <div class="col-lg-4 col-sm-4 col-xs-12">
               <div class="single_footer">
-                <h4><span style="font-family: 'Comfortaa', cursive;">focus</span> for Your Company</h4>
+                <h4>
+                  <span style="font-family: 'Comfortaa', cursive">focus</span>
+                  for Your Company
+                </h4>
                 <ul>
                   <li><a href="#">Benefits</a></li>
                   <li><a href="#">Packages</a></li>
@@ -393,7 +409,10 @@
             <!--- END COL -->
             <div class="col-md-4 col-sm-4 col-xs-12">
               <div class="single_footer single_footer_address">
-                <h4><span style="font-family: 'Comfortaa', cursive;">focus</span> Guidelines</h4>
+                <h4>
+                  <span style="font-family: 'Comfortaa', cursive">focus</span>
+                  Guidelines
+                </h4>
                 <ul>
                   <li><a href="#">Code of Contact</a></li>
                   <li><a href="#">Privacy</a></li>
@@ -406,7 +425,11 @@
             <!--- END COL -->
             <div class="col-md-4 col-sm-4 col-xs-12">
               <div class="single_footer single_footer_address">
-                <h4>Subscribe for <span style="font-family: 'Comfortaa', cursive;">focus</span> insights</h4>
+                <h4>
+                  Subscribe for
+                  <span style="font-family: 'Comfortaa', cursive">focus</span>
+                  insights
+                </h4>
                 <div class="signup_form">
                   <form action="#" class="subscribe">
                     <input
@@ -444,7 +467,7 @@
           <div class="row">
             <div class="col-lg-12 col-sm-12 col-xs-12">
               <p class="copyright">
-                Copyright © 2023 
+                Copyright © 2023
                 <a href="#"
                   ><img src="images/PNG/focus white@1x.png" class="footerlogo"
                 /></a>

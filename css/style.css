@@ -121,6 +121,12 @@ p {
   color: #ff4500;
   font-stretch: expanded;
 }
+#focusstylewhite {
+  font-family: 'Comfortaa', cursive;
+  color: white;
+  font-stretch: expanded;
+}
+
 /*about secton*/
 /* .card-img {
   scale: 30%;
