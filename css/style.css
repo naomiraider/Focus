@@ -105,7 +105,14 @@ p {
   color: orangered !important;
 }
 #signinbtn:hover {
-  color: black !important;
+  background-color: black !important;
+}
+#signinbtnblk {
+  border-color: orangered !important;
+  color: orangered !important;
+}
+#signinbtnblk:hover {
+  background-color: black !important;
 }
 #focusstyle {
   font-family: 'Comfortaa', cursive;
