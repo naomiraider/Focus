@@ -199,7 +199,9 @@ p {
 #defaultCheck1 {
   border: 1px black solid;
 }
-
+#consentDialog {
+  width: min(80%, 30rem);
+}
 /* footer */
 h1,
 h2,

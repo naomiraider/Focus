@@ -30,6 +30,7 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <!-- <nav class="navbar bg-body-tertiary">
       <div class="container-fluid">
@@ -47,7 +48,7 @@
         </form>
       </div>
     </nav> -->
-<main class="container-md">
+    <main class="container-md">
       <div class="logo">
         <img
           src="images/PNG/focus black@3x.png"
@@ -57,9 +58,14 @@
         />
         <h2 id="tellmore">we like what you're saying. we want more!</h2>
         <div class="container">
-          <a class="btn btn-primary" id="startedbtn" href="#info">Read More
-          </a>
-          <button type="button" class="btn btn-outline" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="signinbtn">
+          <a class="btn btn-primary" id="startedbtn" href="#info">Read More </a>
+          <button
+            type="button"
+            class="btn btn-outline"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+            id="signinbtn"
+          >
             <i class="fab fa-reddit-alien"></i> Sign in with Reddit
           </button>
         </div>
@@ -70,7 +76,7 @@
           id="snoos"
         />
       </div>
-     
+
       <div class="introhead container mb-6">
         <h1 class="mb-3 text-center">
           Help shape the future of honest research
@@ -88,7 +94,6 @@
           cupiditate dolorum repudiandae!
         </p>
       </div>
-    
 
       <!-- attributes -->
       <div class="attributes mb-7">
@@ -108,7 +113,7 @@
             <div class="col-md-8">
               <div class="card-body">
                 <h2 class="card-title">Anonymous</h2>
-                <p class="card-text">
+                <p class="card-text mx-0">
                   Your reddit profile is your identity in
                   <span id="focusstyle">focus</span> groups. No additional
                   identifying information is required.
@@ -127,7 +132,7 @@
             <div class="col-md-8">
               <div class="card-body">
                 <h2 class="card-title">Secure</h2>
-                <p class="card-text">
+                <p class="card-text mx-0">
                   Your answers are confidential and will not be shared. You can
                   be honest.
                 </p>
@@ -145,7 +150,7 @@
             <div class="col-md-8">
               <div class="card-body container-fluid">
                 <h2 class="card-title">Incentivized</h2>
-                <p class="card-text">
+                <p class="card-text mx-0">
                   You'll be compensated and rewarded for being honest and
                   participating in groups that you are invited to. Rewards will
                   vary by group and will be predetermined ahead of time so you
@@ -165,7 +170,7 @@
             <div class="col-md-8">
               <div class="card-body container-fluid">
                 <h2 class="card-title">Valued</h2>
-                <p class="card-text">
+                <p class="card-text mx-0">
                   <span id="focusstyle">focus</span> groups are invite only. The
                   invitation is linked to your reddit profile. If you were
                   chosen for a survey, it's because you said something
@@ -185,7 +190,7 @@
             <div class="col-md-8">
               <div class="card-body container-fluid">
                 <h2 class="card-title">Flexible</h2>
-                <p class="card-text">
+                <p class="card-text mx-0">
                   <span id="focusstyle">focus</span> researchers will explain
                   what the study is before you choose to join. If the timing
                   works, great! You just made some easy money.
@@ -205,7 +210,7 @@
             <div class="col-md-8">
               <div class="card-body container-fluid">
                 <h2 class="card-title">Easy</h2>
-                <p class="card-text">
+                <p class="card-text mx-0">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Facilis, nihil sequi voluptas dicta sed non dolore fugiat
                   veritatis ex laboriosam repellendus ipsum accusantium.
@@ -247,7 +252,6 @@
                 cum ad! Laborum.
               </p>
             </div>
-          
 
             <div class="col-12 col-md-4" id="grid2-img">
               <img src="images/PNG/participate_1.png" class="image-fluid" />
@@ -269,9 +273,9 @@
           </div>
         </div>
       </div>
-      
-    <div class="consentDialog" id="consent">
-        <dialog id="consentDialog" class="container rounded border-1">
+
+      <div class="consentDialog" id="consent">
+        <dialog id="consentDialog" class="rounded border-1">
           <h2 class="text-center">
             <span style="color: orangered; font-family: 'Comfortaa', cursive"
               >focus</span
@@ -279,6 +283,7 @@
             Code of Conduct
           </h2>
           <h3 class="text-center">Terms and Conditions</h3>
+          <div class="rounded border-1 border-dark bg-light p-2 overflow-auto" style="max-height:50vh"> 
           <p class="legal">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
             sed deserunt voluptatum laboriosam nulla inventore perferendis quae.
@@ -322,6 +327,7 @@
             repellendus? Nisi tempora expedita obcaecati maxime. Labore, animi
             delectus quisquam a ad dolorum pariatur dolorem laudantium odit.
           </p>
+          </div>
           <form method="dialog">
             <button class="btn btn-primary">Agree</button>
             <button class="btn btn-outline">Decline</button>
@@ -331,8 +337,8 @@
           <label class="form-check-label" for="defaultCheck1">
             <h5>
               I agree to <span id="focusstyle">focus</span> Terms & Conditions
-            </h5></label
-          >
+            </h5>
+          </label>
 
           <input
             class="form-check-input p-2 border-1"
@@ -343,54 +349,85 @@
           />
         </div>
 
-    <div class="text-center p-3">
-      <button type="button" class="btn btn-outline" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="signinbtnblk">
-      <i class="fab fa-reddit-alien"></i> Sign in with Reddit
-      </button>
-    </div>
-     
-<!-- Modal -->
-    <div 
-      class="modal fade" 
-      id="staticBackdrop" 
-      data-bs-backdrop="static" 
-      data-bs-keyboard="false" 
-      tabindex="-1" 
-      aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-     <div class="modal-content">
-        <div class="modal-header">
-    
-          <h1 class="modal-title fs-5" id="staticBackdropLabel">Sign into <span id="focusstyle">focus</span> with your <i class="fab fa-reddit-alien" style="color:orangered"></i> Reddit account</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <i class="fab fa-reddit-alien"></i> Your invitation will be verified through Reddit and you'll be sent to your <span id="focusstyle">focus</span> group.
-        </div>
-        <div class="form-label modal-body">
-          <label class="form-check-label" for="defaultCheck1">
-            <p class="legal">
-              I read and agree to the <span id="focusstyle">focus</span> Code of Conduct
-            </p></label
+        <div class="text-center p-3 mb-5">
+          <button
+            type="button"
+            class="btn btn-outline"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+            id="signinbtnblk"
           >
-
-          <input
-            class="form-check-input p-2 border-1"
-            type="checkbox"
-            value=""
-            id="defaultCheck1"
-          />
+            <i class="fab fa-reddit-alien"></i> Sign in with Reddit
+          </button>
         </div>
 
-        <div class="modal-footer">
-          <button type="button" class="btn btn-outline" data-bs-dismiss="modal">Close</button>
-          <a type="button" class="btn btn-primary" id="signinbtnreddit" href="https://www.figma.com/proto/mXIbWYXsA2UEnLEMh5451R/Focus-(design)?page-id=1%3A5&type=design&node-id=195-1966677&viewport=3303%2C1902%2C0.25&t=JAAjBamGFkOYFRue-1&scaling=scale-down&starting-point-node-id=195%3A1966677&show-proto-sidebar=1&mode=design">Go to <span id="focusstylewhite">focus</span> Group Now</a>
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="staticBackdrop"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabindex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                  Sign into <span id="focusstyle">focus</span> with your
+                  <i class="fab fa-reddit-alien" style="color: orangered"></i>
+                  Reddit account
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <i class="fab fa-reddit-alien"></i> Your invitation will be
+                verified through Reddit and you'll be sent to your
+                <span id="focusstyle">focus</span> group.
+              </div>
+              <div class="form-label modal-body">
+                <label class="form-check-label" for="defaultCheck1">
+                  <p class="legal">
+                    I read and agree to the
+                    <span id="focusstyle">focus</span> Code of Conduct
+                  </p>
+                </label>
+
+                <input
+                  class="form-check-input p-2 border-1"
+                  type="checkbox"
+                  value=""
+                  id="defaultCheck1"
+                />
+              </div>
+
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-outline"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <a
+                  type="button"
+                  class="btn btn-primary"
+                  id="signinbtnreddit"
+                  href="https://www.figma.com/proto/mXIbWYXsA2UEnLEMh5451R/Focus-(design)?page-id=1%3A5&type=design&node-id=195-1966677&viewport=3303%2C1902%2C0.25&t=JAAjBamGFkOYFRue-1&scaling=scale-down&starting-point-node-id=195%3A1966677&show-proto-sidebar=1&mode=design"
+                  >Go to <span id="focusstylewhite">focus</span> Group Now</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
-    
       </div>
-    </div>
-    </div>  
-</main>
+    </main>
 
     <footer>
       <div class="footer">
