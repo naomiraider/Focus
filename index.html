@@ -57,8 +57,7 @@
         />
         <h2 id="tellmore">we like what you're saying. we want more!</h2>
         <div class="container">
-          <a class="btn btn-primary" id="startedbtn" href="#consent">
-            Read More
+          <a class="btn btn-primary" id="startedbtn" href="#info">Read More
           </a>
           <button type="button" class="btn btn-outline" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="signinbtn">
             <i class="fab fa-reddit-alien"></i> Sign in with Reddit
@@ -271,7 +270,7 @@
         </div>
       </div>
       
-    <div class="consent" id="consent">
+    <div class="consentDialog" id="consent">
         <dialog id="consentDialog" class="container rounded border-1">
           <h2 class="text-center">
             <span style="color: orangered; font-family: 'Comfortaa', cursive"
@@ -330,37 +329,21 @@
         </dialog>
         <div class="form-label text-center">
           <label class="form-check-label" for="defaultCheck1">
-            <h3>
+            <h5>
               I agree to <span id="focusstyle">focus</span> Terms & Conditions
-            </h3></label
+            </h5></label
           >
 
           <input
-            class="form-check-input p-3 border-1"
+            class="form-check-input p-2 border-1"
             type="checkbox"
             value=""
             id="defaultCheck1"
             onclick="consentDialog.showModal()"
           />
         </div>
-    
-     
-        <!-- <div class="text-center">
-          <button
-            type="button"
-            class="btn btn-outline"
-            data-toggle="modal"
-            data-target="#loginModal"
-            id="signinbtnblk"
-          >
-            <i class="fab fa-reddit-alien"></i> Sign in with Reddit
-          </button>
-        </div> -->
-    
-      
-      <!--pop up modal-->
-      <!-- Button trigger modal -->
-    <div class="text-center">
+
+    <div class="text-center p-3">
       <button type="button" class="btn btn-outline" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="signinbtnblk">
       <i class="fab fa-reddit-alien"></i> Sign in with Reddit
       </button>
@@ -383,6 +366,20 @@
         </div>
         <div class="modal-body">
           <i class="fab fa-reddit-alien"></i> Your invitation will be verified through Reddit and you'll be sent to your <span id="focusstyle">focus</span> group.
+        </div>
+        <div class="form-label modal-body">
+          <label class="form-check-label" for="defaultCheck1">
+            <p class="legal">
+              I read and agree to the <span id="focusstyle">focus</span> Code of Conduct
+            </p></label
+          >
+
+          <input
+            class="form-check-input p-2 border-1"
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+          />
         </div>
 
         <div class="modal-footer">

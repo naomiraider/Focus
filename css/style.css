@@ -40,7 +40,8 @@ h2 {
   font-family: "RedditSans-Bold", sans-serif;
 }
 h3,
-h4 {
+h4,
+h5 {
   font-family: "RedditSans-SemiBold", sans-serif;
 }
 p {
@@ -126,7 +127,11 @@ p {
   color: white;
   font-stretch: expanded;
 }
-
+#focusstylewhite:hover {
+  font-family: 'Comfortaa', cursive;
+  color: black;
+  font-stretch: expanded;
+}
 /*about secton*/
 /* .card-img {
   scale: 30%;
@@ -192,7 +197,7 @@ p {
   padding-bottom: 2rem;
 }
 #defaultCheck1 {
-  border: 2px black solid;
+  border: 1px black solid;
 }
 
 /* footer */
